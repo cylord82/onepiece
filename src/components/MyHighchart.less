@@ -1,0 +1,27 @@
+.MyHighchart {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 20px;
+
+  ul {
+    list-style: none;
+    padding-left: 10px;
+
+    li {
+      position: relative;
+      .title {
+        padding-left: 20px;
+      }
+    }
+
+    li:hover {
+      .icon {
+        display: inline-block;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 10px;
+  }
+}
